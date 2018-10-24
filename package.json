@@ -1,0 +1,36 @@
+{
+  "name": "vue-vuex-websockets",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "babel-node": "babel-node --presets=latest",
+    "start": "nodemon --exec npm run babel-node -- ./server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arsenii-proto/vue-vuex-websockets.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arsenii-proto/vue-vuex-websockets/issues"
+  },
+  "homepage": "https://github.com/arsenii-proto/vue-vuex-websockets#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.1.2",
+    "@babel/core": "^7.1.2",
+    "babel-cli": "^6.26.0",
+    "babel-preset-latest": "^6.24.1",
+    "nodemon": "^1.18.4"
+  },
+  "babel": {
+    "presets": [
+      "latest"
+    ]
+  },
+  "dependencies": {
+    "ws": "^6.1.0"
+  }
+}
